@@ -71,6 +71,27 @@ section {
 	background-color: #666;
 }
 
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: auto;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	height: auto;
+	width: auto;
+	margin: 1em;
+}
+
+box img {
+	width: 100%;
+	border: 2px white;
+}
+
 /*-------------Helpers-------------*/
 .skew {
 	@include skew;
