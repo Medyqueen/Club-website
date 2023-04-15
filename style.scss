@@ -75,16 +75,22 @@ section {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-around;
 	position: absolute;
 	width: auto;
 	height: 100vh;
-	justify-content: center;
 	align-items: center;
+}
+
+.container-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100vh;
 }
 
 .box {
 	position: relative;
-	box-sizing: border-box;
 	height: auto;
 	width: auto;
 	margin: 1em;
@@ -132,7 +138,7 @@ box img {
 }
 
 .nav {
-	display: flex;
+	display: grid;
 	height: 4em;
 	line-height: 4em;
 	flex-grow: 1;
